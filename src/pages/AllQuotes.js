@@ -33,7 +33,7 @@ const AllQuotes = () => {
     return <NoQuotesFound />;
   }
 
-  return <QuoteList quotes={loadedQuotes} />;
+  return <QuoteList quotes={loadedQuotes}/>;
 };
 
 export default AllQuotes;
