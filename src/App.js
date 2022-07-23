@@ -8,7 +8,8 @@ const { Switch, Route, Redirect } = require("react-router-dom");
 
 function App() {
   
-  return (    
+  return (  
+    
     <Layout>
       <Switch>
         <Route path="/" exact>
