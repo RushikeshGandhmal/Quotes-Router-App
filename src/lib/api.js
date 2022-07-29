@@ -16,10 +16,9 @@ export async function getAllQuotes() {
       id: key,
       ...data[key],
     };
-
     transformedQuotes.push(quoteObj);
   }
-
+  
   return transformedQuotes;
 }
 
