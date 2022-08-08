@@ -18,8 +18,7 @@ function App() {
         fallback={
           <div className="centered">
             <LoadingSpinner />
-          </div>
-    
+          </div>    
         }
       >
         <Switch>
