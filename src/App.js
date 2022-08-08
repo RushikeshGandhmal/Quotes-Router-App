@@ -19,6 +19,7 @@ function App() {
           <div className="centered">
             <LoadingSpinner />
           </div>
+    
         }
       >
         <Switch>
