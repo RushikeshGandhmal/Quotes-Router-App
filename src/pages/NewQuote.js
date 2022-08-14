@@ -18,6 +18,7 @@ const NewQuote = () => {
     sendRequest(quoteData);
   };
   return (
+    
     <QuoteForm isLoading={status === "pending"} onAddQuote={addQuoteHandler} />
   );
 };
