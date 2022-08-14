@@ -8,8 +8,7 @@ const NewQuote = () => {
   const history = useHistory();
   const { sendRequest, status } = useHttp(addQuote);
 
-  useEffect(() => {
-    
+  useEffect(() => {    
     if (status === "completed") {
       history.push("/quotes");
     }
