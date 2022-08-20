@@ -39,8 +39,7 @@ const Comments = () => {
   }
 
   if (status === "completed" && loadedComments && loadedComments.length > 0) {
-    comments = <CommentsList comments={loadedComments} />;
-    
+    comments = <CommentsList comments={loadedComments} />;    
   }
 
   if (
