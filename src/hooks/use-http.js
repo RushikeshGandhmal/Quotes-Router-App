@@ -17,7 +17,7 @@ function httpReducer(state, action) {
     };
   }
 
-  if (action.type === 'ERROR') {
+  if (action.type === 'ERRORR') {
     return {
       data: null,
       error: action.errorMessage,
